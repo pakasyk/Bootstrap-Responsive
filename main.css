@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+header {
+    padding: 10px 0 10px 0;
+}
+
+.hero {
+    background-image: url(./img/bg-masthead.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero>.container-fluid {
+    padding: 64px 0 64px 0;
+    background-color: rgba(94, 94, 94, 0.6); 
+}
+h1 {
+    text-align: center;
+    font-size: 2rem !important;
+}
+
+section.bg-light {
+    padding: 64px 0 64px 0;
+}
+
+section.bg-light i {
+    font-size: 3rem;
+}
+
+section.main article, section.main .picture {
+    padding: 0 !important;
+}
+
+.picture {
+    height: 500px;
+}
+
+section.main .pic1 {
+    background-image: url(./img/bg-showcase-1.jpg);
+    background-size: cover;
+}
